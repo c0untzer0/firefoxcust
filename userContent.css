@@ -1,0 +1,187 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/*
+ * Edit this file and copy it as userContent.css into your
+ * profile-directory/chrome/
+ */
+
+/*
+ * This file can be used to apply a style to all web pages you view
+ * Rules without !important are overruled by author rules if the
+ * author sets any.  Rules with !important overrule author rules.
+ */
+
+/*@-moz-document domain(amadeus.com) {
+*/
+
+/*body {
+*
+*background-attachment: scroll !important;
+*
+*}
+*/
+
+input, textarea {
+
+background-color: #D5D5C6;
+
+color: #4D4D4D;
+
+-moz-appearance: none !important;
+
+-moz-border-radius: 3px;
+
+border-radius: 3px;
+
+}
+
+input:focus, textarea:focus {
+
+background-color: #D5D5C6;
+
+color: #4D4D4D;
+
+box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+border: 1px solid rgba(81, 203, 238, 1);
+
+-moz-appearance: none !important;
+
+-moz-border-radius: 3px;
+
+border-radius: 3px;
+
+}
+
+
+
+/*input[type=text], textarea {
+*  -webkit-transition: all 0.30s ease-in-out;
+*  -moz-transition: all 0.30s ease-in-out;
+*  -ms-transition: all 0.30s ease-in-out;
+*  -o-transition: all 0.30s ease-in-out;
+*  outline: none;
+*  padding: 3px 0px 3px 3px;
+*  margin: 5px 1px 3px 0px;
+*  border: 1px solid #DDDDDD;
+*}
+* 
+*input[type=text]:focus, textarea:focus {
+*  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+*  padding: 3px 0px 3px 3px;
+*  margin: 5px 1px 3px 0px;
+*  border: 1px solid rgba(81, 203, 238, 1);
+*}
+*/
+
+/*textarea {
+*
+*border: 2px inset gray;
+*
+*background-color: white;
+*
+*color: black;
+*
+*-moz-appearance: none !important;
+*
+*}
+*/
+
+/*select {
+*
+*border: 2px inset gray;
+*
+*background-color: white;
+*
+*color: black;
+*
+*-moz-appearance: none !important;
+*
+*}
+*/
+
+
+/*input[type="radio"], input[type="checkbox"] {
+*
+*border: 2px inset white ! important;
+*
+*background-color: white ! important;
+*
+*color: ThreeDFace ! important;
+*
+*-moz-appearance: none !important;
+*
+*}
+*
+*
+*
+*.*|*::-moz-radio {
+*
+*background-color: white;
+*
+*-moz-appearance: none !important;
+*
+*}
+*/
+
+
+button, input[type="reset"], input[type="button"], input[type="submit"] {
+
+background-color: #D5D5C6;
+
+color: #4D4D4D;
+
+-moz-appearance: none !important;
+
+-moz-border-radius: 3px;
+
+border-radius: 15px;
+
+}
+
+
+
+/*body {
+*
+*background-color: white;
+*
+*color: black;
+*
+*display: block;
+*
+*margin: 8px;
+*
+*-moz-appearance: none !important;
+*
+*} 
+*/
+
+
+/*
+ * example: turn off "blink" element blinking
+ *
+ * blink { text-decoration: none ! important; }
+ *
+ */
+
+/*
+ * example: give all tables a 2px border
+ *
+ * table { border: 2px solid; }
+ */
+
+/*
+ * example: turn off "marquee" element
+ *
+ * marquee { -moz-binding: none; }
+ *
+ */
+ 
+/* 
+ * For more examples see http://www.mozilla.org/unix/customizing.html
+ */
+
+/*}
+*/
